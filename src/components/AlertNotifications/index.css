@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #0f172a;
+  width: 600;
+}
+
+.alert-notification-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+@media (min-width: 768px) {
+  .alert-notification-container {
+    width: 50%;
+  }
+}
+
+.heading {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.description {
+  color: #64748b;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+  margin-right: 15px;
+}
+
+.success {
+  color: #2dca73;
+}
+
+.error {
+  color: #ff0b37;
+}
+
+.warning {
+  color: #ffb800;
+}
+
+.info {
+  color: #0f81e0;
+}
